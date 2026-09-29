@@ -1,0 +1,506 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Mercer",
+      "email": "demo@brainrush.com",
+      "password": "$2a$10$w0u6qK4Gq3MvP4/3p7Fkhe823GfQ0t1yXGzJb1cZf2M3T6h4q2A1.",
+      "avatar": "brain_blue",
+      "streak_count": 5,
+      "last_played_date": "2026-09-29",
+      "created_at": "2026-09-29T04:39:36.758Z",
+      "updated_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 2,
+      "name": "Elena Rostova",
+      "email": "elena@brainrush.com",
+      "password": "$2a$10$w0u6qK4Gq3MvP4/3p7Fkhe823GfQ0t1yXGzJb1cZf2M3T6h4q2A1.",
+      "avatar": "brain_purple",
+      "streak_count": 12,
+      "last_played_date": "2026-09-29",
+      "created_at": "2026-09-29T04:39:36.758Z",
+      "updated_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 3,
+      "name": "Marcus Chen",
+      "email": "marcus@brainrush.com",
+      "password": "$2a$10$w0u6qK4Gq3MvP4/3p7Fkhe823GfQ0t1yXGzJb1cZf2M3T6h4q2A1.",
+      "avatar": "brain_amber",
+      "streak_count": 8,
+      "last_played_date": "2026-09-29",
+      "created_at": "2026-09-29T04:39:36.758Z",
+      "updated_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 4,
+      "name": "Sophia Kim",
+      "email": "sophia@brainrush.com",
+      "password": "$2a$10$w0u6qK4Gq3MvP4/3p7Fkhe823GfQ0t1yXGzJb1cZf2M3T6h4q2A1.",
+      "avatar": "brain_emerald",
+      "streak_count": 3,
+      "last_played_date": "2026-09-29",
+      "created_at": "2026-09-29T04:39:36.758Z",
+      "updated_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 5,
+      "name": "dilshath",
+      "email": "dilshath.banu107@gmail.com",
+      "password": "$2a$10$pn2Ig.adEJL3ZHLFNQ9gXOwgce.jQIM56ATWZfxINDef8zvkiE8Pe",
+      "avatar": "brain_blue",
+      "streak_count": 1,
+      "last_played_date": "2026-09-29",
+      "created_at": "2026-09-29T05:16:36.415Z",
+      "updated_at": "2026-09-29T05:16:36.415Z"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "slug": "memory-match",
+      "name": "Memory Match",
+      "category": "Memory",
+      "description": "Flip and match pairs of cards as fast as possible with minimal moves.",
+      "difficulty": "Adaptive",
+      "icon": "Brain",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 2,
+      "slug": "reaction-time",
+      "name": "Reaction Game",
+      "category": "Reaction",
+      "description": "Test your visual reflexes. Click instantly when the screen turns green.",
+      "difficulty": "High Speed",
+      "icon": "Zap",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 3,
+      "slug": "number-challenge",
+      "name": "Number Challenge",
+      "category": "Mathematics",
+      "description": "Solve quick arithmetic problems under rapid time pressure.",
+      "difficulty": "Medium to Hard",
+      "icon": "Calculator",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 4,
+      "slug": "pattern-memory",
+      "name": "Pattern Memory",
+      "category": "Pattern",
+      "description": "Memorize and replicate evolving light-up matrix sequences.",
+      "difficulty": "Progressive",
+      "icon": "Grid",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 5,
+      "slug": "logic-puzzle",
+      "name": "Funny Logic & Riddles",
+      "category": "Logic",
+      "description": "Solve funny brain teasers, witty trick riddles, and hilarious lateral thinking questions.",
+      "difficulty": "Brain Buster",
+      "icon": "Puzzle",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 6,
+      "slug": "emoji-riddle",
+      "name": "Emoji Riddle Master",
+      "category": "Puzzle",
+      "description": "Decipher hilarious emoji combinations, student slang, and pop culture riddles!",
+      "difficulty": "Fun & Playful",
+      "icon": "Sparkles",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 7,
+      "slug": "color-clash",
+      "name": "Color Clash (Stroop)",
+      "category": "Reaction",
+      "description": "The ultimate colorful brain-twister! Match the ink color, NOT the word you read!",
+      "difficulty": "Mind Bending",
+      "icon": "Zap",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 8,
+      "slug": "speed-spotter",
+      "name": "Speed Spotter (Impostor)",
+      "category": "Speed",
+      "description": "Spot the funny odd emoji/impostor hidden in a colorful crowded grid before time runs out!",
+      "difficulty": "Lightning Reflex",
+      "icon": "Target",
+      "created_at": "2026-09-29T04:39:36.758Z"
+    }
+  ],
+  "game_scores": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "game_id": 1,
+      "score": 2450,
+      "accuracy": 94.5,
+      "time_taken_seconds": 38,
+      "level_reached": 3,
+      "metadata": {},
+      "created_at": "2026-09-29T02:39:36.758Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "game_id": 1,
+      "score": 2890,
+      "accuracy": 98,
+      "time_taken_seconds": 31,
+      "level_reached": 3,
+      "metadata": {},
+      "created_at": "2026-09-29T00:39:36.758Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "game_id": 2,
+      "score": 3200,
+      "accuracy": 100,
+      "time_taken_seconds": 15,
+      "level_reached": 5,
+      "metadata": {
+        "avgReactionMs": 215
+      },
+      "created_at": "2026-09-28T22:39:36.758Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "game_id": 3,
+      "score": 2750,
+      "accuracy": 92,
+      "time_taken_seconds": 45,
+      "level_reached": 4,
+      "metadata": {
+        "streak": 12
+      },
+      "created_at": "2026-09-28T16:39:36.758Z"
+    },
+    {
+      "id": 5,
+      "user_id": 4,
+      "game_id": 4,
+      "score": 2100,
+      "accuracy": 88,
+      "time_taken_seconds": 50,
+      "level_reached": 6,
+      "metadata": {},
+      "created_at": "2026-09-28T08:39:36.758Z"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "game_id": 5,
+      "score": 2950,
+      "accuracy": 100,
+      "time_taken_seconds": 42,
+      "level_reached": 5,
+      "metadata": {},
+      "created_at": "2026-09-28T04:39:36.758Z"
+    },
+    {
+      "id": 7,
+      "user_id": 5,
+      "game_id": 8,
+      "score": 1820,
+      "accuracy": 71,
+      "time_taken_seconds": 30,
+      "level_reached": 6,
+      "metadata": {
+        "solvedCount": 5,
+        "maxStreak": 3,
+        "finalLevel": 6
+      },
+      "created_at": "2026-09-29T05:25:21.680Z"
+    },
+    {
+      "id": 8,
+      "user_id": 5,
+      "game_id": 8,
+      "score": 1820,
+      "accuracy": 71,
+      "time_taken_seconds": 30,
+      "level_reached": 6,
+      "metadata": {
+        "solvedCount": 5,
+        "maxStreak": 3,
+        "finalLevel": 6
+      },
+      "created_at": "2026-09-29T05:25:21.755Z"
+    },
+    {
+      "id": 9,
+      "user_id": 5,
+      "game_id": 8,
+      "score": 6470,
+      "accuracy": 85,
+      "time_taken_seconds": 30,
+      "level_reached": 12,
+      "metadata": {
+        "solvedCount": 11,
+        "maxStreak": 7,
+        "finalLevel": 12
+      },
+      "created_at": "2026-09-29T05:25:55.480Z"
+    },
+    {
+      "id": 10,
+      "user_id": 5,
+      "game_id": 8,
+      "score": 6470,
+      "accuracy": 85,
+      "time_taken_seconds": 30,
+      "level_reached": 12,
+      "metadata": {
+        "solvedCount": 11,
+        "maxStreak": 7,
+        "finalLevel": 12
+      },
+      "created_at": "2026-09-29T05:25:55.597Z"
+    },
+    {
+      "id": 11,
+      "user_id": 5,
+      "game_id": 8,
+      "score": 0,
+      "accuracy": 50,
+      "time_taken_seconds": 30,
+      "level_reached": 1,
+      "metadata": {
+        "solvedCount": 0,
+        "maxStreak": 0,
+        "finalLevel": 1
+      },
+      "created_at": "2026-09-29T05:26:37.018Z"
+    },
+    {
+      "id": 12,
+      "user_id": 5,
+      "game_id": 8,
+      "score": 0,
+      "accuracy": 50,
+      "time_taken_seconds": 30,
+      "level_reached": 1,
+      "metadata": {
+        "solvedCount": 0,
+        "maxStreak": 0,
+        "finalLevel": 1
+      },
+      "created_at": "2026-09-29T05:26:37.117Z"
+    },
+    {
+      "id": 13,
+      "user_id": 5,
+      "game_id": 7,
+      "score": 1200,
+      "accuracy": 75,
+      "time_taken_seconds": 35,
+      "level_reached": 2,
+      "metadata": {
+        "streak": 3,
+        "correctCount": 6,
+        "totalCount": 8
+      },
+      "created_at": "2026-09-29T05:29:43.806Z"
+    },
+    {
+      "id": 14,
+      "user_id": 5,
+      "game_id": 7,
+      "score": 1200,
+      "accuracy": 75,
+      "time_taken_seconds": 35,
+      "level_reached": 2,
+      "metadata": {
+        "streak": 3,
+        "correctCount": 6,
+        "totalCount": 8
+      },
+      "created_at": "2026-09-29T05:29:43.971Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "code": "FIRST_GAME",
+      "name": "First Step",
+      "description": "Play your very first brain game on BrainRush.",
+      "category": "General",
+      "icon": "Award",
+      "target_value": 1,
+      "xp_reward": 50
+    },
+    {
+      "id": 2,
+      "code": "BRAIN_BEGINNER",
+      "name": "Brain Beginner",
+      "description": "Score over 500 points in any game mode.",
+      "category": "General",
+      "icon": "Sparkles",
+      "target_value": 500,
+      "xp_reward": 100
+    },
+    {
+      "id": 3,
+      "code": "MEMORY_MASTER",
+      "name": "Memory Master",
+      "description": "Complete a Memory Match game in under 30 seconds.",
+      "category": "Memory",
+      "icon": "Brain",
+      "target_value": 1,
+      "xp_reward": 200
+    },
+    {
+      "id": 4,
+      "code": "SPEED_DEMON",
+      "name": "Speed Master",
+      "description": "Achieve a sub-220ms average reaction time.",
+      "category": "Reaction",
+      "icon": "Zap",
+      "target_value": 1,
+      "xp_reward": 250
+    },
+    {
+      "id": 5,
+      "code": "MATH_WIZARD",
+      "name": "Math Wizard",
+      "description": "Reach a 10-answer streak in Number Challenge.",
+      "category": "Mathematics",
+      "icon": "Flame",
+      "target_value": 10,
+      "xp_reward": 200
+    },
+    {
+      "id": 6,
+      "code": "PATTERN_PRO",
+      "name": "Pattern Master",
+      "description": "Reach Level 7 in Pattern Memory without losing a life.",
+      "category": "Pattern",
+      "icon": "Layers",
+      "target_value": 7,
+      "xp_reward": 250
+    },
+    {
+      "id": 7,
+      "code": "LOGIC_GENIUS",
+      "name": "Logic Master",
+      "description": "Solve 5 logic puzzles with 100% accuracy.",
+      "category": "Logic",
+      "icon": "Target",
+      "target_value": 5,
+      "xp_reward": 200
+    },
+    {
+      "id": 8,
+      "code": "HIGH_SCORER",
+      "name": "High Scorer",
+      "description": "Accumulate 10,000 total score points.",
+      "category": "General",
+      "icon": "Trophy",
+      "target_value": 10000,
+      "xp_reward": 500
+    },
+    {
+      "id": 9,
+      "code": "STREAK_7_DAYS",
+      "name": "7 Day Streak",
+      "description": "Train your brain every day for 7 consecutive days.",
+      "category": "Daily",
+      "icon": "Calendar",
+      "target_value": 7,
+      "xp_reward": 750
+    },
+    {
+      "id": 10,
+      "code": "PUZZLE_EXPERT",
+      "name": "Puzzle Expert",
+      "description": "Play all 5 different game types.",
+      "category": "General",
+      "icon": "Compass",
+      "target_value": 5,
+      "xp_reward": 300
+    }
+  ],
+  "user_achievements": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "achievement_id": 1,
+      "progress": 1,
+      "unlocked_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "achievement_id": 2,
+      "progress": 500,
+      "unlocked_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "achievement_id": 5,
+      "progress": 12,
+      "unlocked_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "achievement_id": 1,
+      "progress": 1,
+      "unlocked_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "achievement_id": 3,
+      "progress": 1,
+      "unlocked_at": "2026-09-29T04:39:36.758Z"
+    },
+    {
+      "id": 6,
+      "user_id": 5,
+      "achievement_id": 1,
+      "progress": 1,
+      "unlocked_at": "2026-09-29T05:25:21.715Z"
+    },
+    {
+      "id": 7,
+      "user_id": 5,
+      "achievement_id": 2,
+      "progress": 500,
+      "unlocked_at": "2026-09-29T05:25:21.724Z"
+    },
+    {
+      "id": 8,
+      "user_id": 5,
+      "achievement_id": 8,
+      "progress": 10110,
+      "unlocked_at": "2026-09-29T05:25:55.510Z"
+    }
+  ],
+  "daily_challenges": [
+    {
+      "id": 1,
+      "challenge_date": "2026-09-29",
+      "game_id": 1,
+      "title": "Memory Speedrun",
+      "description": "Match all pairs in Memory Match with at least 80% accuracy and score 1,500+ points.",
+      "target_score": 1500,
+      "reward_xp": 250,
+      "created_at": "2026-09-29T04:39:36.759Z"
+    }
+  ],
+  "user_progress": []
+}
