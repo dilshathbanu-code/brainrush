@@ -12,6 +12,12 @@
   .font-mono {
     font-family: 'JetBrains Mono', monospace;
   }
+
+  /* Accessibility focus ring */
+  *:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
 }
 
 /* Card 3D Flip Styles for Memory Game */
@@ -126,4 +132,14 @@
 .dark .bg-grid-pattern {
   background-image: radial-gradient(rgba(96, 165, 250, 0.1) 1px, transparent 1px);
   background-size: 24px 24px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
